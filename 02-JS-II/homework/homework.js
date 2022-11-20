@@ -4,6 +4,8 @@
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
+const { stringify } = require("git-url-parse");
+
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
@@ -115,32 +117,46 @@ function devolverString(str) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
+    if (numeroAlCuaradro && numeroRaizCuadrada) {
+      return true;
+    } else {
+      return 'No es raiz cuadrada!';
+    }
   }
   
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
+    var numeroAlCubo = x^3;
+   return numeroAlCubo; 
   }
   
   function elevar(num, exponent) {
     // Devuelve el valor de "num" elevado al exponente dado en "exponent"
     // Tu código:
+    return num^exponente;
   }
-  
+
   function redondearNumero(num) {
     // Redondea "num" al entero más próximo y devuélvelo
     // Tu código:
+    var redondearNumero = x;
+    return numero;
   }
   
   function redondearHaciaArriba(num) {
     // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
     // Tu código:
+    var redondearHaciaArriba = x;
+    return numero;
   }
   
   function numeroRandom() {
     //Generar un número al azar entre 0 y 1 y devolverlo
     //Pista: investigá qué hace el método Math.random()
     // Tu código:
+    var numeroRandom = 0<x<10;
+    return numero;
   }
   
   function esPositivo(numero) {
@@ -149,45 +165,64 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
+      if (x>0) {
+        return 'Es Positivo';
+      }
+      return 'Es negativo';
+      if (x=0) {
+        return false;
+      }
+
   }
   
   function agregarSimboloExclamacion(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
+    return "hello word!";
+  
   }
   
   function combinarNombres(nombre, apellido) {
     // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
+    return "nombre", "apellido";
   }
   
   function obtenerSaludo(nombre) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
+    return "hola", "nombre";
   }
   
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
     // Tu código:
+    return alto * ancho;
   }
   
   function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
+    var Perimetro = lado
+    return 4*lado;
   }
   
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
+    var base = x , altura = y
+    return (x * y)/2;
   }
   
   function deEuroAdolar(euro) {
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
     //como parámetro un número de euros y calcule el cambio en dólares.
     //Escribe tu código aquí
+    var euro = x===1 , dolar = y===1.2
+    return dolar;
   }
   
   // No modificar nada debajo de esta línea
